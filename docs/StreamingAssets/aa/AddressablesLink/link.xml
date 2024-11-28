@@ -10,6 +10,7 @@
     <type fullname="MoreMountains.InventoryEngine.InventorySoundPlayer" preserve="all" />
   </assembly>
   <assembly fullname="MoreMountains.Tools, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="MoreMountains.Feedbacks.MMF_Player" preserve="all" />
     <type fullname="MoreMountains.Feedbacks.MMFlash" preserve="all" />
     <type fullname="MoreMountains.Feedbacks.MMTimeManager" preserve="all" />
     <type fullname="MoreMountains.FeedbacksForThirdParty.MMBloomShaker" preserve="all" />
@@ -21,6 +22,7 @@
     <type fullname="MoreMountains.Tools.MMAchievementDisplayer" preserve="all" />
     <type fullname="MoreMountains.Tools.MMAchievementDisplayItem" preserve="all" />
     <type fullname="MoreMountains.Tools.MMAudioListener" preserve="all" />
+    <type fullname="MoreMountains.Tools.MMConeOfVision2D" preserve="all" />
     <type fullname="MoreMountains.Tools.MMCursorVisible" preserve="all" />
     <type fullname="MoreMountains.Tools.MMFader" preserve="all" />
     <type fullname="MoreMountains.Tools.MMFaderRound" preserve="all" />
@@ -34,22 +36,47 @@
     <type fullname="MoreMountains.Tools.MMTouchButton" preserve="all" />
     <type fullname="MoreMountains.Tools.MMTouchJoystick" preserve="all" />
     <type fullname="MoreMountains.Tools.SelectionBase" preserve="all" />
+    <type fullname="MoreMountains.Feedbacks.MMF_CameraShake" preserve="nothing" serialized="true" />
+    <type fullname="MoreMountains.Feedbacks.MMF_Flash" preserve="nothing" serialized="true" />
+    <type fullname="MoreMountains.Feedbacks.MMF_Flicker" preserve="nothing" serialized="true" />
+    <type fullname="MoreMountains.Feedbacks.MMF_FreezeFrame" preserve="nothing" serialized="true" />
+    <type fullname="MoreMountains.Feedbacks.MMF_Particles" preserve="nothing" serialized="true" />
+    <type fullname="MoreMountains.Feedbacks.MMF_Sound" preserve="nothing" serialized="true" />
+    <type fullname="MoreMountains.Feedbacks.MMFeedbacksEvents" preserve="nothing" serialized="true" />
     <type fullname="MoreMountains.Feedbacks.MMFlashDebugSettings" preserve="nothing" serialized="true" />
+    <type fullname="MoreMountains.FeedbacksForThirdParty.MMF_ChromaticAberration" preserve="nothing" serialized="true" />
+    <type fullname="MoreMountains.FeedbacksForThirdParty.MMF_ColorGrading" preserve="nothing" serialized="true" />
     <type fullname="MoreMountains.Tools.AxisEvent" preserve="nothing" serialized="true" />
     <type fullname="MoreMountains.Tools.JoystickEvent" preserve="nothing" serialized="true" />
     <type fullname="MoreMountains.Tools.JoystickFloatEvent" preserve="nothing" serialized="true" />
+    <type fullname="MoreMountains.Tools.MMCooldown" preserve="nothing" serialized="true" />
+    <type fullname="MoreMountains.Tools.MMLayer" preserve="nothing" serialized="true" />
     <type fullname="MoreMountains.Tools.MMSoundManagerSettings" preserve="nothing" serialized="true" />
     <type fullname="MoreMountains.Tools.MMTweenType" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="MoreMountains.TopDownEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="MoreMountains.TopDownEngine.AmmoDisplay" preserve="all" />
+    <type fullname="MoreMountains.TopDownEngine.Character" preserve="all" />
+    <type fullname="MoreMountains.TopDownEngine.CharacterButtonActivation" preserve="all" />
+    <type fullname="MoreMountains.TopDownEngine.CharacterDash2D" preserve="all" />
+    <type fullname="MoreMountains.TopDownEngine.CharacterFallDownHoles2D" preserve="all" />
+    <type fullname="MoreMountains.TopDownEngine.CharacterHandleWeapon" preserve="all" />
+    <type fullname="MoreMountains.TopDownEngine.CharacterInventory" preserve="all" />
+    <type fullname="MoreMountains.TopDownEngine.CharacterJump2D" preserve="all" />
+    <type fullname="MoreMountains.TopDownEngine.CharacterMovement" preserve="all" />
+    <type fullname="MoreMountains.TopDownEngine.CharacterOrientation2D" preserve="all" />
+    <type fullname="MoreMountains.TopDownEngine.CharacterPause" preserve="all" />
+    <type fullname="MoreMountains.TopDownEngine.CharacterRun" preserve="all" />
     <type fullname="MoreMountains.TopDownEngine.CinemachineBrainController" preserve="all" />
     <type fullname="MoreMountains.TopDownEngine.CinemachineCameraController" preserve="all" />
     <type fullname="MoreMountains.TopDownEngine.GameManager" preserve="all" />
     <type fullname="MoreMountains.TopDownEngine.GUIManager" preserve="all" />
+    <type fullname="MoreMountains.TopDownEngine.Health" preserve="all" />
     <type fullname="MoreMountains.TopDownEngine.InputManager" preserve="all" />
     <type fullname="MoreMountains.TopDownEngine.LevelSelector" preserve="all" />
     <type fullname="MoreMountains.TopDownEngine.PauseButton" preserve="all" />
+    <type fullname="MoreMountains.TopDownEngine.TopDownController2D" preserve="all" />
+    <type fullname="MoreMountains.TopDownEngine.MMF_TopDownEngineFloatingText" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.2D.PixelPerfect, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.U2D.PixelPerfectCamera" preserve="all" />
@@ -136,10 +163,14 @@
     <type fullname="UnityEngine.FlareLayer" preserve="all" />
     <type fullname="UnityEngine.GameObject" preserve="all" />
     <type fullname="UnityEngine.Material" preserve="all" />
+    <type fullname="UnityEngine.MeshFilter" preserve="all" />
+    <type fullname="UnityEngine.MeshRenderer" preserve="all" />
     <type fullname="UnityEngine.Object" preserve="all" />
     <type fullname="UnityEngine.RectTransform" preserve="all" />
+    <type fullname="UnityEngine.Rendering.SortingGroup" preserve="all" />
     <type fullname="UnityEngine.Shader" preserve="all" />
     <type fullname="UnityEngine.Sprite" preserve="all" />
+    <type fullname="UnityEngine.SpriteRenderer" preserve="all" />
     <type fullname="UnityEngine.Texture2D" preserve="all" />
     <type fullname="UnityEngine.Transform" preserve="all" />
     <type fullname="UnityEngine.Events.ArgumentCache" preserve="nothing" serialized="true" />
@@ -152,6 +183,10 @@
   <assembly fullname="UnityEngine.ParticleSystemModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.ParticleSystem" preserve="all" />
     <type fullname="UnityEngine.ParticleSystemRenderer" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.Physics2DModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.CircleCollider2D" preserve="all" />
+    <type fullname="UnityEngine.Rigidbody2D" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.TextRenderingModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Font" preserve="all" />
