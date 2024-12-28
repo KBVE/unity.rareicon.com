@@ -1,4 +1,7 @@
 <linker>
+  <assembly fullname="Kbve.MMExtensions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="KBVE.MMExtensions.Ai.AiAllyBrain" preserve="all" />
+  </assembly>
   <assembly fullname="MoreMountains.InventoryEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="MoreMountains.InventoryEngine.InventoryDetails" preserve="all" />
     <type fullname="MoreMountains.InventoryEngine.InventoryDisplay" preserve="all" />
