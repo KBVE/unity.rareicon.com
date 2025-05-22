@@ -1,10 +1,8 @@
 <linker>
-  <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="Doorway" preserve="all" />
-    <type fullname="RoomBase" preserve="all" />
-  </assembly>
   <assembly fullname="Kbve.MMExtensions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="KBVE.MMExtensions.Ai.AiAllyBrain" preserve="all" />
+    <type fullname="KBVE.MMExtensions.Map.Doorway" preserve="all" />
+    <type fullname="KBVE.MMExtensions.Map.RoomBase" preserve="all" />
   </assembly>
   <assembly fullname="MoreMountains.InventoryEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="MoreMountains.InventoryEngine.InventoryDetails" preserve="all" />
