@@ -1,6 +1,7 @@
 <linker>
   <assembly fullname="Kbve.MMExtensions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="KBVE.MMExtensions.Ai.AiAllyBrain" preserve="all" />
+    <type fullname="KBVE.MMExtensions.Items.OrchestratorInventoryItem" preserve="all" />
     <type fullname="KBVE.MMExtensions.Map.Doorway" preserve="all" />
     <type fullname="KBVE.MMExtensions.Map.RoomBase" preserve="all" />
   </assembly>
@@ -13,6 +14,8 @@
     <type fullname="MoreMountains.InventoryEngine.InventorySelectionMarker" preserve="all" />
     <type fullname="MoreMountains.InventoryEngine.InventorySlot" preserve="all" />
     <type fullname="MoreMountains.InventoryEngine.InventorySoundPlayer" preserve="all" />
+    <type fullname="MoreMountains.InventoryEngine.ItemPicker" preserve="all" />
+    <type fullname="MoreMountains.InventoryEngine.InventoryItemDisplayProperties" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="MoreMountains.Tools, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="MoreMountains.Feedbacks.MMF_Player" preserve="all" />
@@ -41,6 +44,7 @@
     <type fullname="MoreMountains.Tools.MMTouchButton" preserve="all" />
     <type fullname="MoreMountains.Tools.MMTouchJoystick" preserve="all" />
     <type fullname="MoreMountains.Tools.SelectionBase" preserve="all" />
+    <type fullname="MoreMountains.Tools.MMSpawnAroundProperties" preserve="nothing" serialized="true" />
     <type fullname="MoreMountains.Feedbacks.MMF_CameraShake" preserve="nothing" serialized="true" />
     <type fullname="MoreMountains.Feedbacks.MMF_Flash" preserve="nothing" serialized="true" />
     <type fullname="MoreMountains.Feedbacks.MMF_Flicker" preserve="nothing" serialized="true" />
@@ -80,6 +84,7 @@
     <type fullname="MoreMountains.TopDownEngine.InputManager" preserve="all" />
     <type fullname="MoreMountains.TopDownEngine.LevelSelector" preserve="all" />
     <type fullname="MoreMountains.TopDownEngine.PauseButton" preserve="all" />
+    <type fullname="MoreMountains.TopDownEngine.PickableItem" preserve="all" />
     <type fullname="MoreMountains.TopDownEngine.TopDownController2D" preserve="all" />
     <type fullname="MoreMountains.TopDownEngine.MMF_TopDownEngineFloatingText" preserve="nothing" serialized="true" />
   </assembly>
